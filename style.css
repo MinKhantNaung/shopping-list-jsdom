@@ -1,0 +1,38 @@
+body {
+    background-color: #343a40;
+}
+
+input {
+    max-width: 500px;
+}
+
+.productName {
+    cursor: pointer;
+    background-color: whitesmoke;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    user-select: none;
+    display: inline;
+    /* for no copy or select text  */
+}
+
+.purchased {
+    text-decoration: line-through;
+}
+
+/* for trash icon */
+.fa-trash-can {
+    color: white;
+    font-size: 20px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.productContainer {
+    margin-bottom: 35px;
+}
+
+.iconDiv {
+    float: right;
+}
